@@ -1,0 +1,160 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  user-select: none;
+}
+.BackgroudContainer {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    145deg,
+    rgb(196, 195, 196),
+    rgb(146, 146, 146)
+  );
+}
+.MainContainer {
+  background-color: rgb(248, 250, 248);
+  width: 98%;
+  height: 96.5%;
+  margin: auto;
+  margin-top: 1em;
+  border-radius: 1em;
+}
+.Header {
+  width: 100%;
+  height: 15%;
+  background-color: rgb(232, 223, 223);
+  display: flex;
+}
+.ProAdd {
+  display: flex;
+  width: 10em;
+  height: max-content;
+  color: rgb(93, 92, 92);
+}
+.Profile:hover {
+  color: rgb(27, 148, 248);
+}
+.Profile {
+  font-size: 2.5em;
+  margin-top: 0.5em;
+  margin-left: 0.6em;
+  padding-left: 0.3em;
+}
+.AddContact:hover {
+  color: rgb(251, 115, 165);
+}
+.AddContact {
+  font-size: 2em;
+  margin-top: 0.75em;
+  margin-left: 0.9em;
+}
+.Searchbar:hover {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.Searchbar {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 25%;
+  height: 40%;
+  margin-top: 1.5em;
+  margin-left: 1em;
+  border-radius: 1em;
+}
+.Searchbox {
+  border: none;
+  outline: none;
+  margin-left: 0.9em;
+  width: 90%;
+}
+::placeholder {
+  font-size: large;
+}
+.SearchIcon {
+  margin-top: 0.5em;
+  font-size: large;
+  color: rgb(97, 96, 96);
+}
+.MainPanel {
+  background-color:#dcfacd;
+  width: 100%;
+  height: 90%;
+}
+
+.Contact:hover {
+  color: rgb(30, 29, 29);
+}
+.Contact {
+  background-color: rgb(252, 251, 251);
+  width: 97%;
+  margin: auto;
+  margin-top: 1em;
+  border-radius: 0.3em;
+  height: 10%;
+  display: flex;
+  font-family: sans-serif;
+  color: rgb(92, 92, 93);
+}
+.ContactProfile {
+  font-size: 2.5em;
+  margin-top: 0.25em;
+  margin-left: 0.5em;
+  padding-left: 0.5em;
+}
+
+.ContactName,
+.ContactNumber {
+  font-size: 1.5em;
+  margin-top: 0.55em;
+  margin-left: 2em;
+  font-weight: bold;
+}
+.MoreOption {
+  display: flex;
+  width: max-content;
+  font-size: 1.3em;
+  margin-top: 0.75em;
+  margin-left: 53em;
+}
+.Edit:hover {
+  color: blue;
+}
+.Copy:hover {
+  color: rgb(1, 146, 1);
+}
+.Delete:hover {
+  color: rgb(225, 5, 5);
+}
+.MoreMenu:hover {
+  color: rgb(135, 134, 134);
+}
+.icons {
+  margin-left: 1em;
+}
+
+table {
+  width: 95%;
+  height: 7%;
+  text-align: start;
+  text-indent: 15px;
+  font-weight:bold;
+  border-collapse:collapse;
+  margin:2% auto;
+  
+}
+table,tr,td{
+	height:20px;
+    border: 1px solid black;
+    padding:10px;
+    
+
+}
+table tr:first-child{
+	color:blue;
+}

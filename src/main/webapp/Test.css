@@ -1,0 +1,153 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #abe9cd;
+  background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);  
+  position: absolute;
+}
+header {
+  position: relative;
+  width: 100%;
+}
+header h1 {
+  display: inline-block;
+  text-align: center;
+  margin-left: 40%;
+}
+#root {
+  height: 80vh;
+  padding: 4px;
+  overflow: auto;
+  border: 2px inset black;
+}
+/* Hide the scrollbar for all elements */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide the scrollbar for a specific element */
+.element-selector::-webkit-scrollbar {
+  display: none;
+}
+
+#export {
+  margin-top: -3em;
+  margin-right: 2em;
+  position: relative;
+  float: right;
+}
+#export span {
+  margin: 5px;
+  font-weight: 900px;
+}
+input[type="text"] {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  overflow: auto;
+}
+#Add {
+  position: absolute;
+  padding: 5px;
+
+  margin-top: -31.35em;
+  /* z-index: 7; */
+  margin-left: 5em;
+}
+.fa-plus-square {
+  color: green;
+  font-size: 40px;
+  background-color: whitesmoke;
+}
+.fa-pencil {
+  color: rgb(32, 132, 231);
+}
+.btn {
+  padding: 3px 5px;
+}
+.fa-trash {
+  color: rgb(220, 18, 18);
+}
+.fa-check {
+  color: rgb(9, 204, 9);
+}
+
+.Header {
+  width: 100%;
+  height: 15%;
+  background-color: #abe9cd;
+  background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+  
+  display: flex;
+}
+.ProAdd {
+  display: flex;
+  width: 10em;
+  height: max-content;
+  color: rgb(93, 92, 92);
+}
+.Profile:hover {
+  color: rgb(251, 115, 165);
+  
+}
+.Profile {
+  font-size: 2.5em;
+  margin-left: 1em;
+}
+.AddContact:hover {
+  color: rgb(251, 115, 165);
+}
+.AddContact {
+  font-size: 2em;
+  margin-top: 0.75em;
+  margin-left: 0.9em;
+}
+.Searchbar:hover {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.Searchbar {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 25%;
+  height: 40%;
+  margin-top: 1em;
+  margin-left: 1em;
+  border-radius: 1em;
+}
+.Searchbox {
+  border: none;
+  outline: none;
+  margin-left: 0.9em;
+  width: 90%;
+}
+::placeholder {
+  font-size: large;
+}
+.SearchIcon {
+  margin-top: 0.5em;
+  margin-right:0.4em;
+  font-size: large;
+  color: rgb(97, 96, 96);
+}
+
+#root table thead{
+	position:sticky;
+	color:white;
+	top:-2px;
+	background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+	
+}
+#root table tr td input {
+	color: #0e1961;
+	
+}
